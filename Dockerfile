@@ -1,4 +1,4 @@
-FROM wordpress:php7.1
+FROM wordpress:php7.4
 
 RUN apt-get update \
 && apt-get upgrade -yq --no-install-recommends --no-install-suggests \
